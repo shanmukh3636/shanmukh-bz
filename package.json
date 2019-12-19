@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/shanmukh3636/shanmukh-bz/issues"
   },
-  "homepage": "https://github.com/shanmukh3636/shanmukh-bz#readme"
+  "homepage": "https://github.com/shanmukh3636/shanmukh-bz#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
