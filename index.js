@@ -5,4 +5,5 @@ const port = process.env.PORT||3000
 app.use(express.static('public'))
 //app.get('/', (req, res) => res.send('Hello World!'))
 app.get('/', (req, res) => res.sendFile(__dirname+'/public/htmls/index.html'))
+app.get('/res', (req, res) => res.sendFile(__dirname+'/public/htmls/res.html'))
 app.listen(port, () => console.log(`Example app listening on port ${port}!`))
